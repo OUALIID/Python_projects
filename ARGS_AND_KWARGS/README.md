@@ -1,46 +1,51 @@
-# Args and Kwargs Python Project
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
 
-Welcome to the Args and Kwargs Python Project! This repository contains a Python script named `Simple_project.py` that provides interactive examples to help you understand and experiment with the concepts of `*args` and `**kwargs` in Python.
+<h1>Args and Kwargs Python Project</h1>
 
-## Repository Structure
+<p>Welcome to the Args and Kwargs Python Project! This repository contains a Python script named <code>Simple_project.py</code> that provides interactive examples to help you understand and experiment with the concepts of <code>*args</code> and <code>**kwargs</code> in Python.</p>
 
-```
+<h2>Repository Structure</h2>
+
+<pre>
 Python_projects/
 └── ARGS_AND_KWARGS/
     ├── Simple_project.py
     ├── README.md
 ├── README.md
-```
+</pre>
 
-## Getting Started
+<h2>Getting Started</h2>
 
-To get started with the project, follow these steps:
+<p>To get started with the project, follow these steps:</p>
 
-1. Clone the repository to your local machine:
-   ```
-   git clone https://github.com/OUALIID/Python_projects.git
-   ```
+<ol>
+<li>Clone the repository to your local machine:</li>
+<pre><code>git clone https://github.com/OUALIID/Python_projects.git</code></pre>
 
-2. Navigate to the project directory:
-   ```
-   cd Python_projects/ARGS_AND_KWARGS
-   ```
+<li>Navigate to the project directory:</li>
+<pre><code>cd Python_projects/ARGS_AND_KWARGS</code></pre>
 
-3. Run the `Simple_project.py` script using Python:
-   ```
-   python3 Simple_project.py
-   ```
+<li>Run the <code>Simple_project.py</code> script using Python:</li>
+<pre><code>python3 Simple_project.py</code></pre>
 
-4. Follow the on-screen instructions to interact with different scenarios that demonstrate the usage of `*args` and `**kwargs`.
+<li>Follow the on-screen instructions to interact with different scenarios that demonstrate the usage of <code>*args</code> and <code>**kwargs</code>.</li>
+</ol>
 
-## Project Explanation
+<h2>Project Explanation</h2>
 
-The `Simple_project.py` script in this repository is designed to provide you with hands-on experience and insight into the usage of `*args` and `**kwargs` in Python. These concepts allow you to handle flexible numbers of arguments and keyword arguments in functions.
+<p>The <code>Simple_project.py</code> script in this repository is designed to provide you with hands-on experience and insight into the usage of <code>*args</code> and <code>**kwargs</code> in Python. These concepts allow you to handle flexible numbers of arguments and keyword arguments in functions.</p>
 
-By running the script, you'll be guided through interactive examples that showcase various situations where `*args` and `**kwargs` can be employed. Whether you're new to these concepts or looking to solidify your understanding, this project offers a practical way to learn and experiment.
+<p>By running the script, you'll be guided through interactive examples that showcase various situations where <code>*args</code> and <code>**kwargs</code> can be employed. Whether you're new to these concepts or looking to solidify your understanding, this project offers a practical way to learn and experiment.</p>
 
-## Contents
+<h2>Contents</h2>
 
-### `Simple_project.py`
+<h3><code>Simple_project.py</code></h3>
 
-This Python script provides an interactive environment to explore and learn about `*args` and `**kwargs`. It showcases how to use these concepts for handling variable numbers of arguments and keyword arguments in functions.
+<p>This Python script provides an interactive environment to explore and learn about <code>*args</code> and <code>**kwargs</code>. It showcases how to use these concepts for handling variable numbers of arguments and keyword arguments in functions.</p>
+
+</body>
+</html>
