@@ -9,47 +9,47 @@ class UnifiedProgram:
         self.data_dict = {"A": "You", "B": "Are", "C": "The", "D": "Best"}
 
     def clear_screen(self):
-        os.system('clear')
+        os.system('clear')  # Clears the terminal screen
 
     def print_with_delay(self, text, delay=0.01):
         for char in text:
-            print(char, end='', flush=True)
+            print(char, end='', flush=True)  # Prints each character with a slight delay
             time.sleep(delay)
         print()
-
+    # Method to calculate the sum of elements in a list
     def sum_list(self, my_list):
         result = 0
         for x in my_list:
             result += x
         return result
-
+    # Method to calculate the sum of elements in a tuple
     def sum_tuple(self, *args):
         result = 0
         for x in args:
             result += x
         return result
-
+    # Method to concatenate values from a dictionary
     def make_sentence(self, **piplo):
         result = ""
         for x in piplo:
             result += piplo[x]
         return result
-
+    # Method to add a variable and its value to the data dictionary
     def add_variable(self, variable, value):
         self.data_dict[variable] = value
-
+    # Method to print the keys in the data dictionary
     def print_variables(self):
         variables = ' '.join(self.data_dict.keys())
         print(variables)
-
+    # Method to print the values in the data dictionary
     def print_values(self):
         values = ' '.join(self.data_dict.values())
         print(values)
-
+    # Method to print the key-value pairs in the data dictionary
     def print_dictionary(self):
         entries = ', '.join([f'{key}=\'{value}\'' for key, value in self.data_dict.items()])
         print(f'({entries})')
-
+    # Main method to execute the program
     def main(self):
         intro_lines = [
             "\033[1;34m╔══════════════════════════════════════════╗",
@@ -330,5 +330,5 @@ True
                         print("\033[1;31;14mInvalid choice, please choose again.\033[0m")
 
 if __name__ == "__main__":
-    unified_instance = UnifiedProgram()
-    unified_instance.main()
+    unified_instance = UnifiedProgram() # Create an instance of the UnifiedProgram class
+    unified_instance.main() # Call the main method to start the program
