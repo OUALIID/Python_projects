@@ -247,7 +247,7 @@ TypeError: 'tuple' object does not support item assignment\033[0m
                     "║   for key, value in kwargs.items():                     ║",
                     "║     print(f\"{key} : {value}\")                           ║",
                     "║                                                         ║",
-                    "║ human_details(name=\"asmaa\", job=\"developer\", age=\"23\")  ║",
+                    "║ human_details(name=\"asmaa\", job=\"developer\", age=\"...\") ║",
                     "║ print(\"------------------------------\")                 ║",
                     "║ human_details(name=\"oualid\", job=\"hacking\")             ║",
                     "╚═════════════════════════════════════════════════════════╝\033[0m"
@@ -259,7 +259,7 @@ TypeError: 'tuple' object does not support item assignment\033[0m
                 print_all = """
 name : asmaa
 job : developer
-age : 23
+age : ...
 ------------------------------
 name : oualid
 job : hacking
