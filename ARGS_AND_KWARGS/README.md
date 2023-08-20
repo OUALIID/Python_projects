@@ -4,7 +4,7 @@
 </head>
 <body>
 
-<h1>Args and Kwargs Python Project</h1>
+<h1><div align="center">Args and Kwargs Python Project</h1></div>
 
 <p>Welcome to the Args and Kwargs Python Project! This repository contains a Python script named <code>Simple_project.py</code> that provides interactive examples to help you understand and experiment with the concepts of <code>*args</code> and <code>**kwargs</code> in Python.</p>
 
